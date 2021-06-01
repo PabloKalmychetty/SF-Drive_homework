@@ -1,0 +1,14 @@
+{
+  "name": "test_module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass style/ -o css/"
+  },
+  "author": "Pablo",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

@@ -1,0 +1,316 @@
+* {
+  box-sizing: border-box; }
+
+.header-block {
+  display: flex;
+  justify-content: space-between; }
+
+.header-text {
+  margin-top: 31px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1B1B1B; }
+
+.m-menu {
+  display: none;
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  padding: 0;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 12px; }
+
+.m-menu .line {
+  width: 100%;
+  height: 2px;
+  background-color: black; }
+
+.navigation-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline; }
+
+.navigation-panel {
+  margin-top: 35px; }
+
+.navi-link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1B1B1B;
+  margin-left: 30px;
+  text-decoration: none; }
+
+.navi-link:first-child {
+  margin: 0px; }
+
+.header-button {
+  border: 2px solid #E5E5E5;
+  background-color: #fff;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-left: 35px;
+  border-radius: 7px; }
+
+.button-text {
+  font-size: 16px;
+  line-height: 19px;
+  color: #1B1B1B;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.block-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.image-block {
+  margin-right: 521px;
+  margin-left: 522px;
+  margin-top: 111px; }
+
+.title-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 120%;
+  margin-top: 60px; }
+
+.text-info {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 147.3%;
+  color: #1B1B1B;
+  margin-top: 30px;
+  margin-right: 257px;
+  margin-left: 258px;
+  margin-bottom: 80px; }
+
+.panel-default {
+  width: 1026px;
+  height: 66px;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  margin-bottom: 14px; }
+
+.question-item1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1026px;
+  height: 66px;
+  background: rgba(97, 161, 153, 0.1);
+  margin: 0;
+  padding: 0; }
+
+.question-item2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1026px;
+  height: 66px;
+  background: #F7F7F8;
+  margin: 0;
+  padding: 0; }
+
+.question-item3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1026px;
+  height: 66px;
+  background: #F7F7F8;
+  margin: 0;
+  padding: 0; }
+
+.question-item4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1026px;
+  height: 66px;
+  background: rgba(97, 161, 153, 0.15);
+  margin: 0;
+  padding: 0; }
+
+.question-item5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1026px;
+  height: 66px;
+  background: #F7F7F8;
+  margin: 0;
+  padding: 0; }
+
+.question-item6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1026px;
+  height: 66px;
+  background: #F7F7F8;
+  margin: 0;
+  padding: 0; }
+
+.vector {
+  width: 16px;
+  height: 9px;
+  margin-right: 22px; }
+
+.panel-title {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  padding-left: 22px; }
+
+.panel-title-color {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #61A199;
+  margin: 0;
+  padding: 0;
+  padding-left: 22px; }
+
+.panel-body {
+  margin: 0;
+  padding: 0; }
+
+.panel-body-text {
+  padding: 0;
+  margin: 0;
+  width: 784px;
+  height: 58px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  margin-left: 22px; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 124px;
+  background: #3F3D56;
+  margin-top: 120px; }
+
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 40px;
+  opacity: 0.4; }
+
+.social-link {
+  margin-right: 19px; }
+
+.social-link:last-child {
+  margin-right: 42px; }
+
+@media (max-width: 760px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle; }
+  .navigation-button {
+    display: none; }
+  .m-menu {
+    display: flex;
+    margin-right: 23px;
+    margin-top: 28px; }
+  .text-info {
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .contact {
+    display: block;
+    margin-top: 40px; }
+  .contact-info {
+    display: inline-block;
+    text-align: center; } }
+
+@media (max-width: 480px) {
+  .title-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px; }
+  .text-info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center; }
+  .panel-default {
+    width: 335px;
+    height: 50px; }
+  .panel-default-full {
+    width: 335px;
+    height: auto; }
+  .panel-body-text {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 30px; }
+  .question-item1 {
+    width: 335px;
+    height: 50px;
+    background: #F7F7F8; }
+  .question-item2 {
+    width: 335px;
+    height: 50px; }
+  .question-item3 {
+    width: 335px;
+    height: 50px; }
+  .question-item4 {
+    width: 335px;
+    height: 50px; }
+  .question-item5 {
+    width: 335px;
+    height: 50px; }
+  .question-item6 {
+    width: 335px;
+    height: 50px; }
+  .panel-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px; }
+  .panel-title-color {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px; }
+  .panel-body-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px; }
+  .footer {
+    display: inline-block; }
+  .footer-text {
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    opacity: 0.4; }
+  .social-links {
+    margin-left: 22px;
+    margin-bottom: 32px; } }
