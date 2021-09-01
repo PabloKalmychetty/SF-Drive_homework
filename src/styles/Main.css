@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+}
+
+.block-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-block {
+    margin-right: 521px;
+    margin-left: 522px;
+    margin-top: 111px;
+}
+
+.title-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120%;
+    margin-top: 60px;
+}
+
+.text-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 147.3%;
+    color: #1B1B1B;
+    margin-top: 30px;
+    margin-right: 257px;
+    margin-left: 258px;
+    margin-bottom: 80px;
+}
+
+.block-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F7F9FB;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1B1B1B;
+    margin: 0;
+    margin-top: 80px;
+}
+
+.contact:after {
+    position: relative;
+    top: 56px;
+    content: "";
+    width: 1px;
+    height: 62px;
+    background: #C8C8CF;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.mail-info {
+    margin: 0;
+}
+
+.block-two-mail {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 147.3%;
+    color: #4F4F4F;
+    margin: 0;
+    padding-left: 42px;
+}
+
+.block-two-address {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 147.3%;
+    color: #000000;  
+    margin: 0;
+    margin-bottom: 104px;
+    margin-right: 179px;
+}
+
+
+.phone-info {
+    margin-left: 50px;
+}
+
+.block-two-phone {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;
+    color: #4F4F4F;
+    margin: 0;
+    margin-right: 130px;
+    padding-left: 45px;
+}
+
+.block-two-int {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 147.3%;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 105px;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.command {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1B1B1B;
+    margin-top: 80px;
+    margin-bottom: 55px;
+}
+
+.children-command {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.children-block-one {
+    display: flex;
+    margin: 0;
+    height: 300px;
+}
+
+.children-block-reserved {
+    display: none;
+}
+
+.children-block-two {
+    display: flex;
+    margin: 0;
+    margin-bottom: 201px;
+}
+
+.children {
+    margin-right: 81px;
+    margin-bottom: 141px;
+}
+
+.children:first-child {
+    margin-left: 237px;
+}
+
+.children:last-child {
+    margin-right: 239px;
+}
+
+.child {
+    margin-right: 82px;
+}
+
+.child:first-child {
+    margin-left: 498px;
+}
+
+.child:last-child {
+    margin-right: 500px;
+}
+
+.block-name {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 147.3%;
+    margin: 0;
+}
+
+.post {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;
+    color: #828282;
+    margin: 0;
+    
+}
+
+@media (max-width: 760px) {
+
+    .text-info {
+        font-weight: normal;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .contact {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .contact-info {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .block-two-address {
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .block-two-mail {
+        display: block;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .block-two-phone {
+        margin: 0;
+        padding: 0;
+        margin-right: 45px;
+        margin-top: 20px;
+    }
+
+    .block-two-int {
+        margin: 0;
+        padding: 0;
+        margin-right: 45px;
+        margin-bottom: 40px;
+        margin-top: 5px;
+    }
+    
+    .phone-info {
+        display: inline-block;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .block3 {
+        display: flex;
+    }
+
+    .command {
+        margin-left: 15px;
+    }
+
+    .children-command {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .children-block-one {
+        display: none;
+    }
+
+    .children-block-reserved {
+        display: flex;
+    }
+
+    .children {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .children-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .block-name {
+        font-size: 16px;
+        width: 137px;
+    }
+
+    .post {
+        font-size: 12px;
+    }
+
+    .children-block-two {
+        display: none;
+    }
+
+}
